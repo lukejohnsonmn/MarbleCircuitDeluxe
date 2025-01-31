@@ -120,9 +120,9 @@ class PuzzleGenerator():
                 if (pieceMap[piece] < 0):
                     return False
         self.puzzleCount += 1
-        if self.puzzleCount % 168000 == 0:
-            print(f"{(self.puzzleCount / 168168000) * 100:.2f}%")
-            #Note: 168168000 = 15!/(3!)^5 = total number of permutations
+        if self.puzzleCount % 336336 == 0:
+            print(f"{(self.puzzleCount / 336336000) * 100:.2f}%")
+            #Note: 168168000 = 2*15!/(3!)^5 = total number of permutations
 
         return True
 
