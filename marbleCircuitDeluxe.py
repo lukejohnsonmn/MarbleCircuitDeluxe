@@ -122,7 +122,7 @@ class PuzzleGenerator():
         self.puzzleCount += 1
         if self.puzzleCount % 336336 == 0:
             print(f"{(self.puzzleCount / 336336000) * 100:.2f}%")
-            #Note: 168168000 = 2*15!/(3!)^5 = total number of permutations
+            #Note: 336336000 = 2*15!/(3!)^5 = total number of permutations
 
         return True
 
